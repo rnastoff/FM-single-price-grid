@@ -1,0 +1,147 @@
+.join {
+  background: #fff;
+  height: 45.5%;
+  padding: 26px 40px;
+}
+
+.join h1 {
+  color: #2bb3b1;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.join h2 {
+  color: hsl(71, 73%, 54%);
+  font-size: 18px;
+  margin-top: 23px;
+}
+
+.join p {
+  color: hsl(218, 22%, 67%);
+  line-height: 26px;
+  margin-top: -3px;
+}
+
+/* DETAILS */
+.details {
+  display: flex;
+  height: 54.5%;
+}
+
+/* MONTHLY SUBSCRIPTION SECTION*/
+.detailsMonthly {
+  background: #2bb3b1;
+  padding: 22px 40px;
+  width: 50%;
+}
+
+.detailsMonthly h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.price {
+  color: #fff;
+  font-size: 31px;
+  font-weight: 700;
+  margin-top: 20px;
+  /* vertical-align: middle; */
+}
+
+.price span {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 14px;
+  position: relative;
+  top: -5px;
+}
+
+.detailsMonthly p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 8px;
+}
+
+.detailsMonthly button {
+  background: hsl(71, 73%, 54%);
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+  color: #fff;
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 14px;
+  width: 100%;
+  transition: background 0.5s ease;
+}
+
+.detailsMonthly button:hover {
+  background: #b2cf30;
+  transition: background 0.5s ease;
+}
+
+/* WHY SECTION */
+.detailsWhy {
+  background: #4abebd;
+  padding: 22px 40px;
+  width: 50%;
+}
+
+.detailsWhy h3 {
+  color: #fff;
+  font-size: 18px;
+}
+
+.detailsWhy p:first-of-type {
+  margin-top: 24px;
+}
+
+.detailsWhy p {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: -13px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 650px) {
+  .join {
+    padding: 14px 24px;
+    height: 37%;
+  }
+
+  .join h1 {
+    font-size: 20px;
+  }
+
+  .join h2 {
+    font-size: 16px;
+  }
+
+  .join p {
+    font-size: 14px;
+    margin-top: 18px;
+  }
+
+  .details {
+    flex-direction: column;
+  }
+
+  .detailsMonthly {
+    padding: 7px 24px;
+    width: 100%;
+  }
+
+  .detailsMonthly button {
+    margin-bottom: 18px;
+  }
+
+  .detailsWhy {
+    padding: 7px 24px;
+    width: 100%;
+  }
+}

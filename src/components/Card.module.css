@@ -1,0 +1,16 @@
+.card {
+  background: #fff;
+  border-radius: 10px;
+  height: 476px;
+  margin: 0;
+  width: 636px;
+  overflow: hidden;
+}
+
+@media (max-width: 650px) {
+  .card {
+    border-radius: 5px;
+    height: 722px;
+    width: 311px; /*311 */
+  }
+}
